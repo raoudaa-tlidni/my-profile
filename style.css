@@ -1,0 +1,75 @@
+/* colors and fonts */
+
+body { 
+background:#B3E8E5;
+color:peachpuff;
+font-family:fantasy;
+font-size: 17px;
+}
+
+h1 { 
+	color: #fa4369;
+	font-size: 20px;
+	}
+
+h2 {  
+	color:#fa4369 ;
+ }
+ 
+  img {
+ max-width: 30%;
+ max-height: 30%;
+ margin: auto;
+}
+ .img-circle {  
+
+   border-radius: 50%; 
+} 
+  .container {  
+  width: 700px; 
+  margin: 40px auto ;
+  }
+
+  @media (max-width: 760px) { 
+   .container  { 
+      width: 600px ; 
+      }
+  }
+
+  @media(max-width: 500px) { 
+  .container { 
+  	 width: 400px; 
+     }
+    }
+
+ .card-white {
+   background:#8CC0DE;
+   padding: 60px;
+   margin: 50px;
+   box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+   border-radius: 7px;
+   text-align: center;
+  }
+
+  
+  .list-inline {
+  	list-style: none;
+  	padding-left: 0px;
+   }
+.list-inline li {
+	display: inline;
+	padding: 10px;
+ }
+
+.list-inline i {
+	font-size: 50px;
+
+
+
+
+
+
+
+
+
+ 	  
